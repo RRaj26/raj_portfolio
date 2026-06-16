@@ -1,82 +1,63 @@
-# HTML
+# Raj Rathod - Professional Portfolio
 
-A modern HTML project utilizing Tailwind CSS for building responsive web applications with minimal setup.
+A modern, high-performance personal portfolio built with **React**, **Vite**, and **Tailwind CSS**. This project showcases my journey as a Web Developer, featuring my educational background from **Gujarat Technological University**, specialized certifications, and key technical skills.
 
-## 🚀 Features
+## ✨ Key Features
+- **Dynamic Typing Animation:** Engaging hero section with auto-typing developer titles.
+- **Interactive Education Timeline:** A visual journey through my degree and diploma at GTU.
+- **Certificate Showcase:** A dedicated section with a custom modal for viewing professional certifications from Udemy, freeCodeCamp, and Knowledge Gate.
+- **Modern UI/UX:**
+  - Glassmorphism navbar with backdrop-blur effects.
+  - Custom floating technology badges (React, JavaScript, Tailwind, AI, Gemini).
+  - Fully responsive design (Mobile, Tablet, Desktop).
+- **Smooth Navigation:** Anchor-link scrolling for a seamless user experience.
 
-- **HTML5** - Modern HTML structure with best practices
-- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
-- **Custom Components** - Pre-built component classes for buttons and containers
-- **NPM Scripts** - Easy-to-use commands for development and building
-- **Responsive Design** - Mobile-first approach for all screen sizes
-
-## 📋 Prerequisites
-
-- Node.js (v12.x or higher)
-- npm or yarn
-
-## 🛠️ Installation
-
-1. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 🛠️ Tech Stack
+- **Frontend:** React.js (Hooks, Functional Components)
+- **Styling:** Tailwind CSS (Utility-first, Custom Animations)
+- **Icons:** Lucide React & Custom SVGs
+- **Build Tool:** Vite
+- **Deployment:** Vercel
 
 ## 📁 Project Structure
-
-```
-html_app/
-├── css/
-│   ├── tailwind.css   # Tailwind source file with custom utilities
-│   └── main.css       # Compiled CSS (generated)
-├── pages/             # HTML pages
-├── index.html         # Main entry point
-├── package.json       # Project dependencies and scripts
-└── tailwind.config.js # Tailwind CSS configuration
-```
-
-## 🎨 Styling
-
-This project uses Tailwind CSS for styling. Custom utility classes include:
-
-
-## 🧩 Customization
-
-To customize the Tailwind configuration, edit the `tailwind.config.js` file:
-
-
-## 📦 Build for Production
-
-Build the CSS for production:
-
-```bash
-npm run build:css
-# or
-yarn build:css
+```text
+raj-portfolio/
+├── src/
+│   ├── components/    # Reusable UI components (Hero, About, Education, etc.)
+│   ├── App.jsx        # Main application layout
+│   └── index.css      # Global styles and custom animations
+├── public/
+│   ├── certificates/  # Certificate images (React, Udemy, etc.)
+│   └── favicon.svg    # Custom branded favicon
+└── tailwind.config.js # Custom theme and color configuration
 ```
 
-## 📱 Responsive Design
+## 🛠️ Local Development
 
-The app is built with responsive design using Tailwind CSS breakpoints:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/raj-portfolio.git
+   ```
 
-- `sm`: 640px and up
-- `md`: 768px and up
-- `lg`: 1024px and up
-- `xl`: 1280px and up
-- `2xl`: 1536px and up
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## 🙏 Acknowledgments
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-- Built with [Rocket.new](https://rocket.new)
-- Powered by HTML and Tailwind CSS
+## 📜 Certifications Included
+- **Web Development Bootcamp** (Udemy)
+- **React & Redux** (KNOWLEDGE GATE)
+- **HTML TO REACTJS** (Code With Random)
 
-Built with ❤️ on Rocket.new
+---
+Built with ❤️ by [Raj Rathod](https://www.linkedin.com/in/raj-rathod-71a980261/)
+
+## 🚀 Live Demo
+[View My Portfolio](https://raj-portfolio-psi.vercel.app/)
+
+
