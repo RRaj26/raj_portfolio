@@ -21,7 +21,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="text-xl font-poppins font-bold text-primary">
-              Raj Rathod
+             <a href="#hero">
+              Raj Rathod</a>
             </div>
           </div>
           
